@@ -1,0 +1,10 @@
+venv/
+.env
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+chroma_db/    # Vector database files (regenerated from source docs)
+data/         # Sample contracts (may contain sensitive data)
