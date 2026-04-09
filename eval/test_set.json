@@ -137,7 +137,7 @@
     },
     {
       "question": "What powers does the Special Power of Attorney holder have over the said property?",
-      "ground_truth": "The attorney holder is empowered to: manage and supervise the property; sign applications, affidavits, bonds and documents before Government, Municipal Corporation, Electricity Board, Collector and Registrar; recover and collect income, compensation and moneys; employ and instruct experts, professionals, lawyers, agents and servants; lease out, sub-lease, let out or give on leave and license the property; institute or defend suits and legal proceedings; and demand, sue for, recover and receive all debts and sums.",
+      "ground_truth": "The attorney holder is empowered to: manage and supervise the property; sign applications, affidavits, bonds and documents before competent authority; recover and collect income, compensation and moneys; employ and instruct experts, professionals; lease out, sub-lease, let out or give on leave and license the property; institute or defend suits and legal proceedings.",
       "source_document": "SPECIAL POWER OF ATTORNEY.pdf"
     },
     {
@@ -210,5 +210,5 @@
     "ground_truth": "The Licensee must indemnify and hold the Licensor harmless against any legal action, damages, or liabilities arising from the Licensee's activities on the premises. The Licensee is fully responsible for loss, damage, or destruction caused by fire, negligence, or any other act. The Licensee must obtain and maintain a valid business insurance policy covering fire, accidental damage, and third-party liability, with the Licensor named as beneficiary. The Licensee's legal heirs also remain liable for outstanding dues and damages accrued up to the date of death.",
     "source_document": "COMMERCIAL LICENSE AGREEMENT.pdf"
     }
-    ]
+]
 }
