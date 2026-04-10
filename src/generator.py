@@ -12,8 +12,14 @@ from dotenv import load_dotenv
 from functools import lru_cache
  
 load_dotenv()
- 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+try:
+    import streamlit as st
+    api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+except:
+    api_key = os.getenv("OPENAI_API_KEY")
+
+client = OpenAI(api_key=api_key)
  
 SYSTEM_PROMPT = """You are a legal contract analyst. Your role is to answer
 questions about contracts based ONLY on the provided context excerpts.

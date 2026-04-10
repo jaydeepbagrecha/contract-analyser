@@ -7,6 +7,8 @@ Pattern: Load -> Split -> Embed -> Store
 """
  
 import os
+import streamlit as st
+
 from pathlib import Path
 from dotenv import load_dotenv
  
@@ -126,7 +128,11 @@ def create_vector_store(chunks: list) -> Chroma:
     """Generate embeddings for all chunks and store in ChromaDB."""
     embeddings = OpenAIEmbeddings(
         model=EMBEDDING_MODEL,
-        openai_api_key=os.getenv("OPENAI_API_KEY"),
+        #openai_api_key=os.getenv("OPENAI_API_KEY"),
+        try:
+            openai_api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+        except:
+            openai_api_key = os.getenv("OPENAI_API_KEY")
     )
  
     vector_store = Chroma.from_documents(
@@ -145,7 +151,10 @@ def load_vector_store() -> Chroma:
     """Load an existing ChromaDB vector store from disk."""
     embeddings = OpenAIEmbeddings(
         model=EMBEDDING_MODEL,
-        openai_api_key=os.getenv("OPENAI_API_KEY"),
+        try:
+            api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+        except:
+            api_key = os.getenv("OPENAI_API_KEY")
     )
  
     vector_store = Chroma(
