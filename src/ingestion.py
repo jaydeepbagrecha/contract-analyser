@@ -33,15 +33,11 @@ import shutil
 _ORIGINAL_CHROMA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "chroma_db")
 _WRITABLE_CHROMA_DIR = "/tmp/chroma_db"
 
-if os.path.exists(_ORIGINAL_CHROMA_DIR) and not os.path.exists(_WRITABLE_CHROMA_DIR):
-    try:
-        shutil.copytree(_ORIGINAL_CHROMA_DIR, _WRITABLE_CHROMA_DIR)
+if os.path.exists("/tmp"):
+    os.makedirs(_WRITABLE_CHROMA_DIR, exist_ok=True)
+    if os.path.exists(_ORIGINAL_CHROMA_DIR) and not os.listdir(_WRITABLE_CHROMA_DIR):
+        shutil.copytree(_ORIGINAL_CHROMA_DIR, _WRITABLE_CHROMA_DIR, dirs_exist_ok=True)
         print(f"Copied chroma_db to {_WRITABLE_CHROMA_DIR}")
-    except Exception as e:
-        print(f"Could not copy chroma_db: {e}")
-
-# Use writable path if it exists, otherwise local
-if os.path.exists(_WRITABLE_CHROMA_DIR):
     CHROMA_PERSIST_DIR = _WRITABLE_CHROMA_DIR
 else:
     CHROMA_PERSIST_DIR = "chroma_db"
