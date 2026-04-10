@@ -24,11 +24,26 @@ load_dotenv()
  
 # --- Configuration ---
 #CHROMA_PERSIST_DIR = "chroma_db"
-# Use /tmp on Streamlit Cloud (read-only filesystem), local path otherwise
-if os.path.exists("/tmp/chroma_db"):
-    CHROMA_PERSIST_DIR = "/tmp/chroma_db"
+# --- Configuration ---
+import shutil
+
+# Streamlit Cloud has read-only filesystem — copy chroma_db to /tmp
+_ORIGINAL_CHROMA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "chroma_db")
+_WRITABLE_CHROMA_DIR = "/tmp/chroma_db"
+
+if os.path.exists(_ORIGINAL_CHROMA_DIR) and not os.path.exists(_WRITABLE_CHROMA_DIR):
+    try:
+        shutil.copytree(_ORIGINAL_CHROMA_DIR, _WRITABLE_CHROMA_DIR)
+        print(f"Copied chroma_db to {_WRITABLE_CHROMA_DIR}")
+    except Exception as e:
+        print(f"Could not copy chroma_db: {e}")
+
+# Use writable path if it exists, otherwise local
+if os.path.exists(_WRITABLE_CHROMA_DIR):
+    CHROMA_PERSIST_DIR = _WRITABLE_CHROMA_DIR
 else:
     CHROMA_PERSIST_DIR = "chroma_db"
+    
 COLLECTION_NAME = "contracts"
 CHUNK_SIZE = 1000       # Characters per chunk
 CHUNK_OVERLAP = 200     # Overlap between consecutive chunks

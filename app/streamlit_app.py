@@ -7,14 +7,6 @@ Run with: streamlit run app/streamlit_app.py
 import streamlit as st
 import sys
 import os
-import shutil
-
-# Copy chroma_db to writable location for Streamlit Cloud
-CHROMA_SOURCE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "chroma_db")
-CHROMA_WRITABLE = "/tmp/chroma_db"
-
-if not os.path.exists(CHROMA_WRITABLE) and os.path.exists(CHROMA_SOURCE):
-    shutil.copytree(CHROMA_SOURCE, CHROMA_WRITABLE)
  
 # Add project root to path so imports work
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
