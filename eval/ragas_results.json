@@ -1,178 +1,178 @@
 {
   "overall": {
-    "faithfulness": 0.9772,
-    "answer_relevancy": 0.7459,
-    "context_precision": 0.7322,
-    "context_recall": 0.8028
+    "faithfulness": 0.9833,
+    "answer_relevancy": 0.7888,
+    "context_precision": 0.6624,
+    "context_recall": 0.8075
   },
   "per_question": [
     {
       "question": "What is the period of contract for the Clinical Physiotherapist under the Service Contract?",
-      "answer": "The period of contract for the Clinical Physiotherapist under the Service Contract is 2 years, commencing on 10th September, 2019. [Source 1]"
+      "answer": "The period of contract for the Clinical Physiotherapist under the Service Contract is 2 years, commencing on 10th September, 2019."
     },
     {
       "question": "What is the penalty if the Second Party leaves the Service Contract before the contract period ends?",
-      "answer": "If the Second Party leaves the Service Contract before the contract period ends, the First Party has the right to deduct 2 months' average monthly consultancy charges of the Second Party or a minimum of Rs.20,000/-, whichever is higher, from the Second Party's dues. This is contingent upon the Second Party not obtaining prior consent from the First Party for termination under unavoidable circumstances."
+      "answer": "If the Second Party leaves the consultancy work of the First Party during the tenure of the contract, the First Party has the right to deduct 2 months' average monthly consultancy charges of the Second Party or a minimum of Rs.20,000/-, whichever is higher. This is outlined in the contract terms agreed upon by the parties."
     },
     {
       "question": "What are the consulting hours and weekly requirements under the Service Contract?",
-      "answer": "The consulting hours under the Service Contract are from unspecified PM to unspecified PM, Monday through Saturday. The Second Party is expected to consult not less than 30 hours each week and may be required to work additional hours if necessary."
+      "answer": "The consulting hours under the Service Contract are from Monday through Saturday, with specific hours not detailed in the provided context. The Second Party is expected to consult not less than 30 hours each week, and may be required to work additional hours if necessary."
     },
     {
       "question": "What constitutes Proprietary Material under the NDA between ABC and DEF?",
-      "answer": "Proprietary Material under the NDA between ABC and DEF includes technical and business information, media samples, prototype parts, or other tangible embodiments of information that are disclosed or delivered between the parties for the stated purposes. This information is considered proprietary by both ABC and DEF. The Proprietary Material can be in written, oral, or other tangible forms, provided it is marked or identified as confidential or proprietary at the time of disclosure or delivery, and oral disclosures are subsequently reduced to writing and marked accordingly within a specified period after the oral disclosure [Source 1], [Source 4]."
+      "answer": "Proprietary Material under the NDA between ABC and DEF includes technical and business information, media samples, prototype parts, or other tangible embodiments of information that are disclosed or delivered between the parties for the stated purposes. This information is considered proprietary by both ABC and DEF and is collectively referred to as 'Proprietary Material.' The information includes, but is not limited to, ideas, products, proposed products, processes, services, capabilities, and materials, or any information that quantifies, classifies, or identifies these elements. The Proprietary Material is related to the subjects and purposes of exchanging confidential information to discuss possible future business collaborations relating to business and technology."
     },
     {
       "question": "Under what conditions are oral disclosures treated as confidential under the NDA?",
-      "answer": "Under the NDA, oral disclosures are treated as confidential if they are identified as confidential or proprietary at the time of disclosure. Additionally, these oral disclosures must be reduced to writing and marked with a confidential or proprietary legend, and this writing must be furnished to the receiving party within a specified number of days after the oral disclosure. However, the exact number of days is not provided in the context excerpts."
+      "answer": "Oral disclosures are treated as confidential under the NDA if they are identified as confidential or proprietary at the time of disclosure or delivery. Additionally, these oral disclosures must be reduced to writing and marked with a confidential or proprietary legend, and this writing must be furnished to the receiving party within a specified number of days after the oral disclosure [Source 1], [Source 4]."
     },
     {
       "question": "What is the lease period and property details under the Lease Deed executed at Ahmedabad in 2020?",
-      "answer": "The lease period under the Lease Deed executed at Ahmedabad in 2020 is for an initial period of 9 years, effective from an unspecified day in June 2020. The property details include a piece of land situated at 554, Chhadawad, Ahmedabad, forming part of Mouje Chhadawad of Sabarmati Taluka in the Registration District Ahmedabad and Sub-District of Ahmedabad\u20133 (Memnagar), bearing Final Plot No.554 of Town Planning Scheme No.3/5. The property is free from all encumbrances, liens, or charges."
+      "answer": "The lease period under the Lease Deed executed at Ahmedabad in 2020 is for an initial period of 9 years, effective from an unspecified day of June 2020. The property details include the location at 554, Chhadawad, Ahmedabad, forming part of Mouje Chhadawad of Sabarmati Taluka in the Registration District Ahmedabad and Sub-District of Ahmedabad\u20133 (Memnagar), bearing Final Plot No.554 of Town Planning Scheme No.3/5."
     },
     {
       "question": "Who are the Lessors in the Lease Deed and what is the Lessee's identity?",
-      "answer": "The identity of the Lessors and the Lessee is not explicitly provided in the context excerpts. The excerpts mention 'The Lessor' and 'The Lessee' as parties to the lease agreement but do not provide specific names or identities."
+      "answer": "The provided context does not specify the identity of the Lessors or the Lessee by name. However, it is mentioned that Turning Point Healthcare Pvt. Ltd is responsible for the payment of lease rent and adherence to the terms of the lease, which suggests that they may be the Lessee or associated with the Lessee [Source 3]."
     },
     {
       "question": "For what purpose has the Lessee taken the premises on lease under the Lease Deed?",
-      "answer": "The context provided does not explicitly state the specific purpose for which the Lessee has taken the premises on lease under the Lease Deed. The excerpts mention responsibilities and rights related to maintenance, insurance, and the ability to use the premises for lawful purposes, but do not specify a particular purpose for leasing."
+      "answer": "The Lessee has taken the premises on lease for the purpose of conducting its business operations on an 'as is where is' basis."
     },
     {
       "question": "What is the license period and effective dates of the Leave and License Agreement made in February 2026?",
-      "answer": "The license period of the Leave and License Agreement made in February 2026 is 11 months, commencing from 15th February 2026 and ending on 14th January 2027."
+      "answer": "The license period of the Leave and License Agreement made in February 2026 is 11 months. The effective dates are from 15th February 2026 to 14th January 2027."
     },
     {
       "question": "Who bears the local authority taxes and society maintenance charges under the Leave and License Agreement?",
-      "answer": "Under the Leave and License Agreement, the Licensor is responsible for paying the local authority taxes such as Municipal Corporation Tax, Property tax, and Cess [Source 2]. The Licensor is also responsible for paying the Society's/Association's common maintenance charges, which include common lighting, sweeping, security, water pumping, bore-well maintenance, lift, and parking [Source 1]."
+      "answer": "Under the Leave and License Agreement, the Licensor bears the local authority taxes, including Municipal Corporation Tax, Property tax, and Cess, as well as the Society's/Association's common maintenance charges. These charges are inclusive of the License fee."
     },
     {
       "question": "What is the rent escalation clause and payment terms under the Leave and License Agreement?",
-      "answer": "The rent escalation clause under the Leave and License Agreement specifies that the license fee will increase by 10% annually starting from 15th January 2027. The payment terms require the Licensee to pay the Licensor the license fees, including maintenance and property tax, on or between the 1st to 5th day of each English calendar month. Payments can be made via cash, cheque, or online methods such as IMPS, NEFT, or UPI. All payments are subject to deduction of tax at source (TDS) under the provisions of the Income Tax Act, 1961 or any applicable legislation. Additionally, if the agreement is renewed, the license fee will be increased by 10% annually with mutual consent of both parties."
+      "answer": "The rent escalation clause under the Leave and License Agreement specifies that the license fee will increase by 10% annually starting from 15th January 2027. The payment terms require the Licensee to pay the License Fees, which include maintenance and property tax, in advance on or between the 1st to 5th day of each English Calendar month. Payments can be made via Cash, Cheque, or Online methods such as IMPS, NEFT, or UPI. All payments are subject to deduction of tax at source (TDS) under the provisions of the Income Tax Act, 1961 or any applicable legislation [Source 2], [Source 3], [Source 4]."
     },
     {
       "question": "Who is the Vendor/Promoter in the Agreement to Sale at Ahmedabad and what is the RERA number?",
-      "answer": "The Vendor/Promoter in the Agreement to Sale at Ahmedabad is UTPAL SPACES LLP. The RERA number is CAA02353/120418 dated 12/04/2018 [Source 1], [Source 2]."
+      "answer": "The Vendor/Promoter in the Agreement to Sale at Ahmedabad is UTPAL SPACES LLP. The RERA number is CAA02353/120418 dated 12/04/2018."
     },
     {
       "question": "What type of construction was approved for the project in the Agreement to Sale by UTPAL SPACES LLP?",
-      "answer": "The construction approved for the project in the Agreement to Sale by UTPAL SPACES LLP includes First Cellar parking, Ground Floor Back side mechanical parking, Ground Floor front side Shops, First Floor Shops, Second to Seventh Floor Offices, and Stair Cabin and Lift Room. This was approved by the Ahmedabad Municipal Corporation as per the revised Rajja Chitti No. BLNT/WZ/26106/GDR/A7462/R1/M1 dated 18/07/2019."
+      "answer": "The construction approved for the project by UTPAL SPACES LLP includes a building consisting of Basement mechanical parking, Ground Floor Back side mechanical parking, Ground Floor front side Shops, First Floor Shops, Second to Seventh Floor Offices, and Stair Cabin and Lift Room."
     },
     {
       "question": "What does 'Apartment' mean under the RERA Agreement for Sale by Shrusti Organisors?",
-      "answer": "The term 'Apartment' under the RERA Agreement for Sale by Shrusti Organisors refers to a unit being constructed by the Promoter, which includes a specified flat number with a defined carpet area, car parking spaces, exclusive areas such as an outdoor kitchen and verandah, and an undivided proportionate right, title, and interest in the land along with the right to use common areas and facilities of the project. This is collectively referred to as the 'Apartment' in the context of the sale deed and agreement for sale [Source 2], [Source 5]."
+      "answer": "The term 'Apartment' under the RERA Agreement for Sale by Shrusti Organisors refers to the property being constructed by the Promoter, which is agreed to be sold to the Allottee as per the terms and conditions outlined in the Agreement for Sale. This is indicated by the reference to the 'Apartment' being constructed by the Promoter and the Agreement for Sale executed between the Promoter and the Allottee for its purchase [Source 3]."
     },
     {
       "question": "What legislation governs the RERA Agreement for Sale and who is the Appropriate Government?",
-      "answer": "The legislation governing the RERA Agreement for Sale is the Real Estate (Regulation and Development) Act, 2016. The Appropriate Government is not explicitly mentioned in the provided context, but typically, the state government where the property is located acts as the Appropriate Government under the RERA Act. In this case, since the property is in Ahmedabad, Gujarat, the Appropriate Government would likely be the Government of Gujarat."
+      "answer": "The RERA Agreement for Sale is governed by the Real Estate (Regulation and Development) Act, 2016, as mentioned in the dispute resolution clause [Source 2]. However, the context does not specify who the 'Appropriate Government' is for the RERA Agreement for Sale."
     },
     {
       "question": "What is the procedure if the purchaser's advocate finds the vendor's title is not clear in the house sale agreement?",
-      "answer": "If the purchaser's advocate finds that the vendor's title is not clear, the vendor is required to refund the earnest money to the purchaser without interest within a specified number of days from the date of intimation about the advocate's report. If the vendor fails to refund the earnest money within the specified period, they will be liable to pay interest at a specified rate per month until the earnest money is repaid."
+      "answer": "If the purchaser's advocate finds that the vendor's title is not clear, the vendor is required to refund the earnest money to the purchaser without interest. This refund must occur within a specified number of days from the date the purchaser intimates the vendor about the advocate's report. If the vendor fails to refund the earnest money within this period, the vendor will be liable to pay interest at a specified rate per month until the earnest money is repaid."
     },
     {
       "question": "What are the consequences of breach of agreement by the purchaser in the house sale agreement?",
-      "answer": "If the purchaser commits a breach of the agreement, the vendor is entitled to forfeit the earnest money paid by the purchaser. Additionally, the vendor will have the liberty to resell the property to any person [Source 1]."
+      "answer": "If the purchaser commits a breach of the agreement, the vendor is entitled to forfeit the earnest money paid by the purchaser. Additionally, the vendor will have the liberty to resell the property to any person."
     },
     {
       "question": "What is included in the unit allotment under the Sale Deed for Shivalik Residences?",
-      "answer": "The unit allotment under the Sale Deed for Shivalik Residences includes: (a) a unit/apartment with an unspecified flat number and carpet area, located in a specified block on a specified floor in 'Shivalik Residences'; (b) 3 car parking spaces, each measuring 8 sq. meters, in the basement of the building; (c) an exclusive area comprising an outdoor kitchen area and a verandah area, with unspecified measurements; and (d) an undivided proportionate right, title, and interest in the land, along with the right to use common areas and facilities of the project. These details are collectively referred to as the 'Apartment' and are more particularly described in Schedule-II of the Sale Deed [Source 1], [Source 5]."
+      "answer": "The unit allotment under the Sale Deed for Shivalik Residences includes: (a) a unit/apartment with a specified flat number and carpet area located in a specified block and floor within Shivalik Residences; (b) 3 car parking spaces, each measuring 8 square meters, in the basement of the building; (c) an exclusive area comprising an outdoor kitchen area and a verandah area, with specific measurements; and (d) an undivided proportionate right, title, and interest in the land, along with the right to use common areas and facilities of the project."
     },
     {
       "question": "Who is the Promoter/Vendor in the Sale Deed for Shivalik Residences?",
-      "answer": "The Promoter/Vendor in the Sale Deed for Shivalik Residences is Shrusti Organisors Private Limited, represented by its authorized signatory Mr. Rajeshkumar Fulchandbhai Vora."
+      "answer": "The Promoter in the Sale Deed for Shivalik Residences is the entity that purchased the land from the Vendor, Pushpavati Kantilal Trust. The Vendor is Pushpavati Kantilal Trust, as indicated in the Deed of Conveyance dated 10/07/2014 [Source 1], [Source 2], [Source 5]."
     },
     {
       "question": "What is the total cheque amount and under which sections is the cheque bounce complaint filed?",
-      "answer": "The total cheque amount is \u20b976,89,500/- (Rupees Seventy Six Lakhs Eighty Nine Thousand Five Hundred only). The cheque bounce complaint is filed under Section 138 and Section 142 of the Negotiable Instruments Act, 1881."
+      "answer": "The total cheque amount is \u20b976,89,500/- (Rupees Seventy Six Lakhs Eighty Nine Thousand Five Hundred only). The cheque bounce complaint is filed under Section 142 of the Negotiable Instruments Act, 1881 [Source 1], [Source 2]."
     },
     {
       "question": "What was the original loan amount disbursed by the Complainant to the Accused in the cheque bounce case?",
-      "answer": "The original loan amount disbursed by the Complainant to the Accused was \u20b997,00,000/- (Rupees ninety-seven Lakhs only) [Source 1], [Source 3], [Source 4]."
+      "answer": "The original loan amount disbursed by the Complainant to the Accused was \u20b997,00,000/- (Rupees ninety-seven Lakhs only) [Source 3], [Source 4]."
     },
     {
       "question": "Who are the Accused parties in the cheque bounce complaint and what is their relationship?",
-      "answer": "The context does not explicitly name the Accused parties in the cheque bounce complaint or detail their relationship with the Complainant. However, it is mentioned that the Accused is known to the Complainant and his family and had approached the Complainant for a friendly loan for business expansion purposes [Source 5]."
+      "answer": "The Accused parties in the cheque bounce complaint are Accused No. 1 and Accused No. 2. Accused No. 1 is a sole proprietorship firm engaged in the business of manufacturing and trading metal products, and it does not have a separate legal identity from its proprietor. Accused No. 2 is an adult Indian male residing in Ahmedabad, who is the sole proprietor of Accused No. 1. He is directly responsible for the day-to-day affairs of the firm and all decisions pertaining to its financial obligations, including the issuance of cheques, acceptance of loans, and communication with creditors. Both Accused No. 1 and Accused No. 2 are jointly and severally liable for the dishonour of cheques forming the subject matter of the present complaint."
     },
     {
       "question": "What is the loan amount and the legal provisions cited in the Civil Suit for Recovery filed in City Civil Court, Ahmedabad?",
-      "answer": "The loan amount in the Civil Suit for Recovery filed in the City Civil Court, Ahmedabad, is \u20b919,95,615/- (Rupees Nineteen Lakhs Ninety-Five Thousand Six Hundred and Fifteen Only) [Source 5]. The legal provisions cited in the suit include Section 73 of the Indian Contract Act, 1872, Section 34 of the Civil Procedure Code, 1908, and Section 5 of the Limitation Act, 1963 [Source 3]."
+      "answer": "The context does not provide the specific loan amount involved in the Civil Suit for Recovery filed in the City Civil Court, Ahmedabad. However, the legal provisions cited in the suit include Section 73 of the Indian Contract Act, 1872, Section 34 of the Civil Procedure Code, 1908, and Section 5 of the Limitation Act, 1963 [Source 3]."
     },
     {
       "question": "What was the closing balance as reflected in the Audit Report and when did the Plaintiff issue legal notice in the recovery suit?",
-      "answer": "The closing balance as reflected in the Audit Report for the financial year 2020-2021 was \u20b95,55,594/- [Source 1], [Source 2]. The Plaintiff issued a legal notice on 14/12/2024 demanding repayment of the outstanding loan amount along with applicable interest [Source 1], [Source 4], [Source 5]."
+      "answer": "The closing balance as reflected in the Audit Report for the financial year 2020-2021 was \u20b95,55,594/- [Source 1], [Source 2], [Source 3]. The Plaintiff issued a legal notice on 14/12/2024 demanding repayment of the entire outstanding amount along with accrued interest [Source 1], [Source 5]."
     },
     {
       "question": "What items are prohibited from being stored in the bank safe deposit locker?",
-      "answer": "The items prohibited from being stored in the bank safe deposit locker include anything illegal, contraband, or any hazardous substance. If the bank suspects the deposit of such items, it has the right to take appropriate action, including opening the locker, subject to compliance with legal formalities, and potentially terminating the right to use the locker or the agreement itself."
+      "answer": "The items prohibited from being stored in the bank safe deposit locker include cash or currency, arms, weapons, explosives, drugs, any contraband material, perishable material, radioactive material, and any illegal items."
     },
     {
       "question": "What are the locker rent payment terms under the revised Bank Locker Agreement?",
-      "answer": "Under the revised Bank Locker Agreement, the locker rent is payable in advance up to March 31st of the financial year in which the agreement is executed, on a pro-rata basis including the month of hiring, along with 12 months' rent for the following year. Subsequently, the locker rent is to be recovered every year on April 2nd. Additionally, a one-time Registration Rent is charged as specified in Schedule-I of the agreement. The customer is also required to keep a fixed deposit sufficient to cover the locker rent for three years and the cost of breaking open the locker, unless they have a satisfactorily operative account as per the circular No. RBI/2021-2022/86 [Source 1], [Source 3], [Source 5]."
+      "answer": "Under the revised Bank Locker Agreement, the locker rent is payable in advance up to the 31st of March of the financial year in which the agreement is executed, on a pro-rata basis including the month of hiring, together with 12 months' rent for the following year. After the initial payment, the locker rent will be recovered every year on the 2nd of April. Additionally, a one-time Registration Rent is charged as specified in Schedule-I of the agreement [Source 1]. The rent amount is detailed in Schedule-I and is payable in advance [Source 2]."
     },
     {
       "question": "Which RBI circular governs the revised Bank Locker Agreement and what is the nature of the locker license?",
-      "answer": "The revised Bank Locker Agreement is governed by the RBI circular No. RBI/2021-2022/86 dated 18.08.2021. The nature of the locker license is such that the Customer is prohibited from using the Locker for any illegal activity or keeping anything illegal, contraband, or hazardous in the Locker. The Bank has the right to take appropriate action, including opening the Locker and terminating the agreement, if it suspects any such activities, subject to compliance with legal formalities [Source 1], [Source 2]."
+      "answer": "The revised Bank Locker Agreement is governed by the RBI circular No. RBI/2021-2022/86 dated 18.08.2021 [Source 2], [Source 5]. The nature of the locker license is personal, non-transferable, and only for legitimate purposes such as storing valuables like jewelry and documents, but not for storing cash, currency, arms, explosives, drugs, contraband, perishable, radioactive, or illegal materials [Source 3]."
     },
     {
       "question": "What powers does the Special Power of Attorney holder have over the said property?",
-      "answer": "The Special Power of Attorney holder has extensive powers over the said property. These include the authority to prepare, approve, execute, sign, seal, deliver, and register documents, deeds, assignments, tenancy agreements, leave and license agreements, and other related papers [Source 2]. The holder can also employ and instruct professionals, manage, administer, recover, and protect the assets of the property, and lease or sublet the property on terms they deem fit [Source 5]. Additionally, the holder is authorized to perform all acts, deeds, and matters concerning the property as if the owners were acting themselves, and the owners agree to ratify all actions taken by the attorney under this power [Source 4]."
+      "answer": "The Special Power of Attorney holder has extensive powers over the said property. These include the ability to employ and instruct professionals and other personnel for the management, administration, recovery, and protection of the property [Source 4]. The holder can also lease, sub-lease, sublet, let out, and give the property on leave and license under terms and conditions they deem fit [Source 4]. Additionally, the attorney has the authority to appoint substitutes with powers and authorities they consider appropriate [Source 5]. They are empowered to perform all acts, deeds, matters, and things related to the property as the owners could do themselves [Source 2], [Source 5]. The owners have agreed to ratify and confirm all actions taken by the attorney in respect of the property [Source 2], [Source 5]."
     },
     {
       "question": "Why was the Special Power of Attorney executed and what property does it relate to?",
-      "answer": "The Special Power of Attorney was executed to appoint a lawful and constituted attorney to manage, maintain, and handle various affairs related to an immovable property. This includes management, administration, recovery, protection, leasing, and executing necessary legal documents concerning the property. The property in question is office 501 in Ahmedabad, as described in SCHEDULE 'A'."
+      "answer": "The Special Power of Attorney was executed to nominate, appoint, and constitute an individual as the Special Power of Attorney Holder for the Owners of the immovable property being office 501 in Ahmedabad. This document allows the appointed attorney to perform all acts, deeds, matters, and things related to the said property as the Owners could do themselves, effectively managing the property and any affairs related to it. The property is specifically described in Schedule 'A' of the document."
     },
     {
       "question": "What access rights are granted and what restrictions apply under the Sirion End User SaaS Agreement?",
-      "answer": "Under the Sirion End User SaaS Agreement, the End User is granted a limited, personal, non-exclusive, and non-transferable right for Authorized Users to access the features of the Subscription Services during the Subscription Term [Source 1]. The use of the Subscription Services must comply with the Sirion Use Policy [Source 4]. Restrictions include ensuring that the use does not exceed the number of Authorized User subscriptions purchased, and multiple individuals should not use the same User ID. If an audit reveals excess use, Sirion is entitled to invoice for additional fees [Source 4]."
+      "answer": "Under the Sirion End User SaaS Agreement, the End User is granted a limited, personal, non-exclusive, non-transferable right for Authorized Users to access the features and functionalities of the Subscription Services during the Subscription Term. The restrictions include that the access is limited to Authorized Users, and the rights are non-transferable, meaning the End User cannot transfer these rights to another party [Source 2]."
     },
     {
       "question": "What happens if a Sirion audit reveals the End User has exceeded purchased subscription levels?",
-      "answer": "If a Sirion audit reveals that the End User has used more Authorized User subscriptions than purchased, including allowing multiple individuals to use the same User ID, Sirion is entitled to invoice the End User for any additional fees due for such excess use. The End User will be required to pay these additional fees without prejudice to Sirion's other rights."
+      "answer": "If a Sirion audit reveals that the End User has exceeded the number of Authorized User subscriptions purchased, including by allowing multiple individuals to use the same User ID, Sirion is entitled to invoice the End User for any additional fees due for the excess use. The End User is required to pay these additional fees. This action is without prejudice to Sirion's other rights."
     },
     {
       "question": "What is a Node Based Subscription under the Acceldata SaaS Terms and Conditions?",
-      "answer": "A Node Based Subscription under the Acceldata SaaS Terms and Conditions is a type of license where the Application subscribed to may be used by a limited number of individual Nodes. A 'Node' is defined as a computer hardware device of any type, form, or configuration that is identified by a unique device ID. The maximum number of Nodes permitted is specified in the Quote. Customers may designate different Nodes at any time without notice to the Service Provider, provided that the permitted number of Nodes is not exceeded. [Source 1], [Source 5]"
+      "answer": "A Node Based Subscription under the Acceldata SaaS Terms and Conditions is a type of license that allows the Application subscribed to pursuant to the Quote to be used by a limited number of individual Nodes. A 'Node' refers to a computer hardware device of any type, form, or configuration that is identified by a unique device ID. The maximum number of Nodes permitted is specified in the Quote. This type of subscription does not allow for concurrent user subscriptions and is the default type of license unless otherwise stated in the Quote."
     },
     {
       "question": "What general restrictions apply to the customer's use of software under the Acceldata SaaS Terms?",
-      "answer": "The general restrictions on the customer's use of the software under the Acceldata SaaS Terms include: 1) The customer must ensure that each website using the application contains or links to a privacy policy governing data collection and use practices [Source 2]. 2) The customer is responsible for informing authorized users about the rights and obligations under the SaaS Terms and is liable for any violations by authorized users or third parties within the customer's control [Source 2]. 3) The customer must keep login names and passwords confidential and protected against unauthorized access, and instruct authorized users to observe copyright regulations [Source 2]. 4) The customer is required to check data for viruses before entry and use state-of-the-art anti-virus programs [Source 5]. 5) Upon termination of the SaaS Terms, the customer must not access the software or circumvent any security mechanisms [Source 4]."
+      "answer": "Under the Acceldata SaaS Terms, the customer's use of the software is subject to several general restrictions: 1) The software is provided as a nonexclusive, nontransferable subscription, and the customer is granted the right to access and operate the software solely to perform functions described in the documentation [Source 3]. 2) Upon termination of the SaaS Terms, the customer must cease accessing the software and must not circumvent any security mechanisms [Source 2]. 3) The customer is responsible for ensuring that its authorized users are informed of the rights and obligations under the SaaS Terms and is liable for any violations by these users [Source 4]. 4) The customer must keep login credentials confidential and protect them against unauthorized access [Source 4]. 5) The customer is required to maintain written records related to the use of the software to verify compliance with the usage terms [Source 5]."
     },
     {
       "question": "What key legal risks are identified in SaaS License Agreements in India?",
-      "answer": "The key legal risks identified in SaaS License Agreements in India include: 1) User Terms and Usage Limits, which involve avoiding ambiguity in the licensing scope [Source 1], [Source 3]. 2) Data Handling & Privacy, which requires meeting India's digital protection mandates [Source 1]. 3) Support & Uptime SLA Clauses, emphasizing the importance of not leaving these to assumptions [Source 1]. 4) Intellectual Property (IP) & Ownership, which involves clarifying code rights early [Source 1]. Additionally, there are jurisdictional concerns and the need for legal due diligence to ensure compliance and legal protection [Source 2]."
+      "answer": "The key legal risks identified in SaaS License Agreements in India include: 1) User Terms and Usage Limits: Avoiding ambiguity in the licensing scope, 2) Data Handling & Privacy: Meeting India's digital protection mandates, 3) Support & Uptime SLA Clauses: Avoiding assumptions, and 4) Intellectual Property & Ownership: Clarifying code rights early [Source 1], [Source 4]."
     },
     {
       "question": "What are the ground rent payment terms and interest provisions under the Deed of Lease (LawRato template)?",
-      "answer": "Under the Deed of Lease (LawRato template), the ground rent payment terms require the Lessee to pay the rent free and clear of all deductions and strictly in advance on or before the 5th day of each calendar month. The first monthly ground rent is to be paid on the 5th day of the specified month, and subsequent rents are to be paid on or before the 5th day of every succeeding month regularly. If the ground rent is not paid on the due dates, the Lessee shall pay interest on the overdue amount at a specified rate per annum from the due date until payment. However, the payment of interest does not entitle the Lessee to default in payment of rent on due dates [Source 2], [Source 5]."
+      "answer": "Under the Deed of Lease (LawRato template), the ground rent is to be paid free and clear of all deductions and strictly in advance on or before the 5th day of each calendar month. The first monthly ground rent payment is due on the 5th day of the specified starting month, and subsequent payments are due on or before the 5th day of every succeeding month. If the ground rent is not paid on the due dates, the Lessee is required to pay interest on the overdue amount at a specified rate per annum from the due date until payment is made. However, the payment of interest does not entitle the Lessee to make defaults in the payment of rent on the due dates."
     },
     {
       "question": "Who pays municipal taxes and what is the purpose of the licensed premises under the LawRato Leave and License Agreement?",
-      "answer": "Under the LawRato Leave and License Agreement, the Licensor is responsible for paying all the municipal taxes and other taxes and levies in respect of the licensed premises. The purpose of the licensed premises is for the Licensee to carry on his business, as the agreement allows the Licensee to temporarily occupy and use one portion of immovable property for this purpose."
+      "answer": "Under the LawRato Leave and License Agreement, the Licensor is responsible for paying all the municipal taxes and other taxes and levies in respect of the licensed premises [Source 1], [Source 3], [Source 4]. The purpose of the licensed premises is for the Licensee to carry on their business until they secure other more suitable accommodation [Source 5]."
     },
     {
       "question": "What are the electricity and water charge responsibilities under the LawRato Leave and License Agreement?",
-      "answer": "The provided context does not specify the responsibilities for electricity and water charges under the LawRato Leave and License Agreement. The excerpts do not mention these utilities specifically in relation to the LawRato agreement."
+      "answer": "Under the LawRato Leave and License Agreement, the Licensee is responsible for paying the electricity charges separately on an actual consumption basis as billed by the concerned department. These charges are exclusive of the License Fee [Source 1]. The agreement does not explicitly mention water charges, so it is unclear who is responsible for them based on the provided context."
     },
     {
       "question": "Can the tenant sub-lease or transfer possession of the residential rental premises?",
-      "answer": "The tenant cannot sub-lease or transfer possession of the residential rental premises. Both the lease deed and the residential rental agreement explicitly prohibit the lessee from creating a sub-lease, assigning, or transferring the lease or possession of the premises to anyone else. [Source 1], [Source 3]"
+      "answer": "The tenant cannot sub-lease or transfer possession of the residential rental premises. The contract explicitly states that the Lessee shall have no right to create any sub-lease or assign or transfer in any manner the lease or give to anyone the possession of the said premises or any part thereof [Source 2], [Source 4], [Source 5]."
     },
     {
       "question": "What are the respective repair responsibilities of Lessor and Lessee under the Residential Rental Agreement?",
-      "answer": "Under the Residential Rental Agreement, the Lessor is responsible for attending to seepage repairs. If the Lessor fails to carry out the necessary repairs after receiving notice from the Lessee, the Lessee is entitled to undertake the repairs themselves, and the Lessor must reimburse the costs incurred by the Lessee [Source 2]. Additionally, before handing over the premises, the Lessor is responsible for ensuring the working condition of sanitary, electrical, and water supply connections, as well as other fittings [Source 3]. The Lessee must use the premises and its fixtures and fittings in a careful and responsible manner and return them in working condition, except for reasonable wear and tear or damage due to fire, flood, rains, accidents, irresistible force, or act of God [Source 2]."
+      "answer": "Under the Residential Rental Agreement, the Lessor is responsible for attending to seepage repairs. If the Lessor fails to carry out these repairs upon receiving notice from the Lessee, the Lessee may undertake the necessary repairs and the Lessor is liable to reimburse the costs incurred by the Lessee [Source 2]. The Lessee, on the other hand, is responsible for all repairs and day-to-day maintenance of the premises, which must be carried out at the Lessee's own cost [Source 4]."
     },
     {
       "question": "What are the termination and notice period terms under the Commercial License Agreement?",
-      "answer": "The provided context does not explicitly mention a 'Commercial License Agreement.' However, there are details about termination and notice periods in various agreements. In Source 2, the Licensor can terminate the agreement by giving fifteen days' prior notice if the Licensee breaches any term. In Source 4, the Licensor can terminate the agreement by giving one month's notice if the Licensee fails to comply with any terms. Source 5 mentions a three-month or 90 days' notice period for termination from either side. Without specific reference to a 'Commercial License Agreement,' these are the relevant terms found in the provided sources."
+      "answer": "The termination and notice period terms under the Commercial License Agreement, as provided in the context, state that if the Licensee commits a breach of any term of the agreement, the Licensor is entitled to terminate the agreement by giving fifteen days' prior notice to the Licensee. Additionally, upon expiration or earlier termination of the license, the Licensee must hand over vacant and peaceful possession of the premises to the Licensor in the same condition, subject to normal wear and tear. The Licensee's occupation of the premises after such termination will be deemed as trespassing."
     },
     {
       "question": "How are disputes resolved under the Commercial License Agreement and which law governs it?",
-      "answer": "Disputes under the Commercial License Agreement are resolved through arbitration in Ahmedabad, as per the Arbitration and Conciliation Act, 1996. The arbitration process involves a sole arbitrator mutually appointed by both parties. If a sole arbitrator cannot be appointed mutually, each party appoints one arbitrator, and in case of a difference of opinion between them, an umpire is appointed by the two arbitrators before entering on the reference. The decision of such arbitrators is binding [Source 3]."
+      "answer": "Disputes under the Commercial License Agreement are resolved through arbitration in Ahmedabad as per the Arbitration and Conciliation Act, 1996. If a sole arbitrator cannot be mutually appointed, each party will appoint one arbitrator, and an umpire will be appointed by these two arbitrators in case of a difference of opinion. The agreement is governed by the laws of Gujarat, India. Courts in Ahmedabad have jurisdiction for matters relating to the enforcement of arbitration awards, interim relief, or disputes beyond the scope of arbitration."
     },
     {
       "question": "What are the indemnity and insurance obligations of the Licensee under the Commercial License Agreement?",
-      "answer": "Under the Commercial License Agreement, the Licensee has several indemnity and insurance obligations. The Licensee is required to indemnify and hold the Licensor harmless against any legal action, damages, or liabilities arising from the Licensee\u2019s activities on the premises. This includes being fully responsible for any loss, damage, or destruction caused to the licensed premises due to fire, negligence, or any other act, whether accidental or intentional [Source 2]. Additionally, the Licensee must obtain business insurance to cover any loss, damage, or liability arising from their operations. This insurance must cover fire, accidental damage, and third-party liability, with the Licensor named as a beneficiary or having a right to claim compensation [Source 1]. Furthermore, the Licensee is responsible for obtaining necessary insurance coverage for their portion of the premises to mitigate losses from events like fire, explosion, natural disasters, or accidents originating from another part of the leased property not under the Licensor\u2019s exclusive control [Source 3]."
+      "answer": "Under the Commercial License Agreement, the Licensee has specific indemnity and insurance obligations. The Licensee is required to indemnify and hold the Licensor harmless against any legal action, damages, or liabilities arising from the Licensee\u2019s activities on the premises [Source 2]. Additionally, the Licensee must obtain business insurance to cover any loss, damage, or liability arising from their operations. This includes maintaining a valid insurance policy covering fire, accidental damage, and third-party liability, with the Licensor named as a beneficiary or having a right to claim compensation [Source 1]. Furthermore, the Licensee is responsible for obtaining necessary insurance coverage for their portion of the premises to mitigate any potential losses [Source 4]."
     }
   ],
   "per_sample_scores": {
@@ -181,6 +181,7 @@
       1.0,
       1.0,
       1.0,
+      0.6667,
       1.0,
       1.0,
       1.0,
@@ -191,10 +192,6 @@
       1.0,
       1.0,
       1.0,
-      0.5,
-      1.0,
-      1.0,
-      0.9091,
       1.0,
       1.0,
       1.0,
@@ -204,109 +201,112 @@
       1.0,
       1.0,
       1.0,
-      null,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.8333,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
       1.0,
       1.0,
       0.8,
-      0.8571,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
       1.0,
       1.0,
       1.0
     ],
     "answer_relevancy": [
-      0.9043,
-      0.9061,
+      1.0,
+      0.7525,
       0.0,
-      0.9463,
+      0.9619,
+      0.9021,
+      0.9256,
       0.0,
-      0.9859,
-      0.0,
-      0.0,
+      0.7825,
       0.9651,
-      0.6157,
+      0.9156,
       0.9306,
       0.8797,
       0.8741,
       0.9782,
-      0.8991,
-      0.7104,
-      0.8076,
-      0.9811,
-      1.0,
-      1.0,
-      0.8695,
       0.0,
-      0.9453,
-      0.6308,
+      0.8736,
+      0.8076,
+      0.9812,
+      0.9649,
+      0.8801,
+      0.8717,
+      0.921,
+      0.0,
+      0.6309,
       0.9932,
       0.9811,
       0.7769,
       0.9674,
-      0.7616,
+      0.6962,
       0.921,
-      0.8836,
+      0.9341,
       1.0,
       0.9832,
       0.9922,
-      0.8391,
+      0.8009,
       0.634,
       0.0,
       1.0,
-      0.8549,
-      0.0,
+      0.7386,
+      1.0,
       0.911,
       1.0
     ],
     "context_precision": [
       1.0,
+      0.3667,
       0.3333,
       1.0,
       0.9167,
-      0.9167,
-      1.0,
-      1.0,
-      0.0,
-      0.3667,
-      1.0,
-      0.8056,
-      0.0,
-      1.0,
-      0.45,
-      0.3667,
-      0.8333,
+      0.5,
       0.75,
-      0.7,
-      0.8333,
-      0.7556,
-      0.8042,
-      0.95,
-      0.3667,
+      0.25,
+      0.4778,
       1.0,
-      1.0,
-      0.7556,
-      1.0,
-      0.8875,
-      1.0,
-      0.8042,
-      1.0,
-      0.7,
-      0.8875,
-      0.95,
-      0.45,
-      0.8042,
-      0.45,
-      1.0,
-      0.5833,
+      0.6389,
       0.0,
+      0.4167,
+      0.8333,
+      0.5,
+      0.7,
+      0.4778,
+      0.9167,
+      0.0,
+      0.7,
+      0.4167,
+      0.8875,
       0.3333,
-      1.0
+      0.95,
+      0.3333,
+      1.0,
+      0.5889,
+      1.0,
+      0.8667,
+      0.9167,
+      1.0,
+      0.9167,
+      1.0,
+      1.0,
+      0.3667,
+      0.8042,
+      0.8056,
+      0.8875,
+      0.5,
+      0.0,
+      0.5833,
+      0.8875
     ],
     "context_recall": [
       1.0,
@@ -315,17 +315,14 @@
       1.0,
       1.0,
       0.5,
-      0.0,
-      0.0,
+      0.5,
       1.0,
       1.0,
       1.0,
       1.0,
       1.0,
-      1.0,
-      1.0,
-      1.0,
-      1.0,
+      0.5,
+      0.2,
       1.0,
       1.0,
       1.0,
@@ -333,24 +330,27 @@
       0.0,
       1.0,
       1.0,
-      0.6,
+      1.0,
+      0.5,
+      1.0,
+      0.8,
+      1.0,
+      1.0,
+      0.8333,
+      0.5,
+      0.6667,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5,
+      0.6667,
       1.0,
       0.3333,
-      0.2857,
-      0.5,
-      0.6667,
+      0.0,
       1.0,
-      1.0,
-      0.6667,
-      1.0,
-      1.0,
-      1.0,
-      0.6667,
-      1.0,
-      0.6667,
-      0.5,
-      0.6667,
-      1.0
+      0.75
     ]
   }
 }

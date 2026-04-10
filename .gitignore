@@ -6,5 +6,4 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
-chroma_db/    # Vector database files (regenerated from source docs)
 data/         # Sample contracts (may contain sensitive data)
