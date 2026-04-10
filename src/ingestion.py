@@ -126,13 +126,13 @@ def split_documents(documents: list) -> list:
 # --- Step 3 & 4: Embed and Store ---
 def create_vector_store(chunks: list) -> Chroma:
     """Generate embeddings for all chunks and store in ChromaDB."""
+    try:
+            api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+    except:
+            api_key = os.getenv("OPENAI_API_KEY")
     embeddings = OpenAIEmbeddings(
         model=EMBEDDING_MODEL,
-        #openai_api_key=os.getenv("OPENAI_API_KEY"),
-        try:
-            openai_api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
-        except:
-            openai_api_key = os.getenv("OPENAI_API_KEY")
+        openai_api_key=api_key,
     )
  
     vector_store = Chroma.from_documents(
@@ -149,12 +149,13 @@ def create_vector_store(chunks: list) -> Chroma:
  
 def load_vector_store() -> Chroma:
     """Load an existing ChromaDB vector store from disk."""
+    try:
+            api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+    except:
+            api_key = os.getenv("OPENAI_API_KEY")
     embeddings = OpenAIEmbeddings(
         model=EMBEDDING_MODEL,
-        try:
-            api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
-        except:
-            api_key = os.getenv("OPENAI_API_KEY")
+        openai_api_key=api_key,
     )
  
     vector_store = Chroma(
