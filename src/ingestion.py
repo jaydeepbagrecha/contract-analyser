@@ -23,7 +23,12 @@ from langchain_community.vectorstores import Chroma
 load_dotenv()
  
 # --- Configuration ---
-CHROMA_PERSIST_DIR = "chroma_db"
+#CHROMA_PERSIST_DIR = "chroma_db"
+# Use /tmp on Streamlit Cloud (read-only filesystem), local path otherwise
+if os.path.exists("/tmp/chroma_db"):
+    CHROMA_PERSIST_DIR = "/tmp/chroma_db"
+else:
+    CHROMA_PERSIST_DIR = "chroma_db"
 COLLECTION_NAME = "contracts"
 CHUNK_SIZE = 1000       # Characters per chunk
 CHUNK_OVERLAP = 200     # Overlap between consecutive chunks
